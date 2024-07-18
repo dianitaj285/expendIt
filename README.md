@@ -2,6 +2,7 @@
 
 # How to run the app
 
-To run the virtual env, run: source env/bin/activate
-To run a file do: python {file_name}
-TO close the virtual env do: deactivate
+1. To run the virtual env, run: source env/bin/activate
+2. Go to src
+3. Do `fastapi dev main.py`
+4. To close the virtual env do: deactivate
