@@ -1,4 +1,4 @@
-from pony.orm import Database, Required, db_session, select
+from pony.orm import Database
 
 db = Database()
 
@@ -6,6 +6,3 @@ db.bind(provider='postgres', user='postgres', password='password', host='localho
 
 db.generate_mapping(create_tables=True)
 
-
-class Person(db.Entity):
-    name = Required(str)
